@@ -1,0 +1,248 @@
+/* .background1{
+    background: url();
+} */
+.top {
+  border-bottom: 2px solid red;
+}
+.blue1 {
+  color: rgb(1, 16, 148);
+}
+.red1 {
+  color: #ca0303;
+  margin-right: 0.4em;
+}
+.cont1 {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  z-index: 0;
+  margin-top: 3em;
+}
+.cont2 {
+  background-color: #e3e3ee;
+  border-radius: 5em;
+  /* height: 600px; */
+  padding: 2em;
+  padding-top: 1em;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  box-shadow: 4px 2px rgba(0, 0, 0, 0.19);
+  /* display: flex; */
+}
+/*============profile===========*/
+.card-img-top1 {
+  padding: 0.8em;
+  border-radius: 50%;
+  display: flex;
+}
+.card1 {
+  border-radius: 5em;
+  width: 100%;
+  color: white;
+  background-color: rgb(52, 7, 156, 0.8);
+  text-align: center;
+  z-index: 0;
+  position: relative;
+  display: flex;
+}
+.aaa {
+  position: absolute;
+  z-index: 0;
+  top: 8.5em;
+  left: 3.5em;
+}
+.line-h {
+  line-height: 2em;
+}
+.p3 {
+  line-height: 0.2;
+  text-align: center;
+}
+.view1 {
+  line-height: 0;
+}
+.col1 {
+  padding: 0;
+}
+/*===========doc name============*/
+h1 {
+  font-size: 2em;
+}
+.blue2 {
+  background-color: rgb(1, 16, 148);
+  color: white;
+  padding-top: 0.5em;
+  width: fit-content;
+  font-size: 0.9em;
+  margin-left: 1.1em;
+  margin-right: 1.6em;
+}
+.in {
+  display: flex;
+  /* padding: 0.8em; */
+  /* margin-left: 1em;*/
+}
+.in1 {
+  display: flex;
+}
+.p1 {
+  text-align: left;
+  margin-top: 3em;
+  margin-bottom: 4.8em;
+}
+.light {
+  color: gray;
+  display: flex;
+  font-size: 1.3em;
+}
+.col2 {
+  padding-left: 3em;
+}
+.l-blue {
+  color: rgba(0, 123, 255, 0.83);
+}
+/*============ bg-imgs=============*/
+.bg-img1 {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 0;
+}
+.bg-img2 {
+  position: absolute;
+  z-index: -1;
+  top: 42em;
+  left: 0;
+}
+/*============ date-picker=============*/
+.react-datepicker__header {
+  background-color: #64cff7 !important;
+}
+input {
+  width: inherit;
+}
+/*============================*/
+.col3 {
+  margin-top: 3.5em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+}
+.dot2 {
+  line-height: 0.9;
+}
+/*=========card-radio-buttons-clinic==========*/
+.card-input-radio {
+  display: none;
+}
+
+.card-input-radio:checked + .card2 {
+  background-color: white;
+  color: blue;
+  border: 3px solid green;
+}
+
+.card2 {
+  background-color: rgb(169, 164, 164);
+  border: 3px solid transparent;
+  border-radius: 2em;
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+.light1 {
+  color: gray;
+  /* display: flex;
+  font-size: 1.3em; */
+}
+/*=========card-radio-buttons-time-slot==========*/
+.card3 {
+  background-color: rgb(169, 164, 164);
+  border: 3px solid transparent;
+  border-radius: 2em;
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+.card-input-radio:checked + .card3 {
+  background-color: blue;
+  color: white;
+  /* border: 3px solid green; */
+}
+/*================extras ===============*/
+.dot2 {
+  margin-bottom: 1em;
+}
+.btn11 {
+  background-color: blue;
+  color: white;
+  font-size: 1em;
+}
+.btn11:hover {
+  background-color: rgb(45, 124, 243);
+  color: white;
+  font-size: 1em;
+}
+
+/*=============media queries================*/
+
+@media (max-width: 992px) {
+  .aaa {
+    visibility: hidden;
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .bg-img1 {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    display: none;
+  }
+  .col2 {
+    padding: 0;
+    text-align: center;
+  }
+  .p1 {
+    padding-left: 4em;
+  }
+  .fa-map-marker-alt {
+    display: none;
+  }
+  .bg-img2 {
+    position: absolute;
+    z-index: -1;
+    top: 42em;
+    left: 0;
+    visibility: hidden;
+    display: none;
+  }
+  .in {
+    display: block;
+  }
+  .in1 {
+    padding-bottom: 1em;
+  }
+  .aaa {
+    visibility: hidden;
+    display: none;
+  }
+  .top-h {
+    text-align: center;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .aaa {
+    top: 8.5em;
+    left: 3.5em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .aaa {
+    top: 10.5em;
+    left: 4.5em;
+  }
+}

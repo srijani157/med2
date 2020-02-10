@@ -1,0 +1,127 @@
+.cont123 {
+  background-color: #e2e2e5;
+  padding: 55px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  z-index: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.bg-img2 {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 0;
+}
+.cus-col {
+  color: rgb(6, 6, 173);
+}
+.r12 {
+  margin-top: 25px;
+}
+.h5-1 {
+  font-weight: 600;
+  font-size: 1em;
+}
+.h5-2 {
+  font-weight: 600;
+  font-size: 1em;
+  color: #3f3f3f;
+}
+/*==========col 1st==================*/
+.card13 {
+  background-color: rgb(169, 164, 164);
+  border: 3px solid transparent;
+  display: inline-block;
+  text-align: center;
+  /* margin: 20px; */
+  padding: 6px;
+}
+.card-input-radio:checked + .card13 {
+  background-color: blue;
+  color: white;
+  /* border: 3px solid green; */
+}
+.btn13 {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none;
+  padding: 0;
+  margin-left: 61px;
+}
+.btn131 {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none;
+  padding: 0;
+  color: rgb(6, 6, 173);
+}
+.cont124 {
+  border: 4px dashed gray;
+  padding-left: 22px;
+}
+.cont125 {
+  background-color: #808080b3;
+  text-align: center;
+  align-self: center;
+  padding: 18px;
+  margin-right: 12px;
+}
+.btn14 {
+  background-color: #294481;
+  color: white;
+  margin-top: 50px;
+}
+.btn14:hover {
+  background-color: #4c6192;
+}
+.p12 {
+  text-align: center;
+  margin-top: 12px;
+  width: 100%;
+  /* margin-left: -19px; */
+}
+.col-pdf {
+  display: flex;
+}
+/*==============img last col==================*/
+.col123 {
+  text-align: center;
+}
+.round12 {
+  width: 150px;
+  height: 150px;
+  margin-top: 57px;
+  border-radius: 50%;
+  background-color: white;
+}
+.btn12 {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none;
+}
+/*==============img last col==================*/
+@media (max-width: 340px) {
+  .cont123 {
+    padding: 15px;
+  }
+}
+@media (max-width: 700px) {
+  .col-doc {
+    order: 2;
+  }
+  .col-pdf {
+    margin-top: 25px;
+  }
+  .cus-col {
+    margin-top: 25px;
+  }
+  .col-deg {
+    margin-top: -10px;
+  }
+  .btn13 {
+    margin-left: 30px;
+  }
+}
+@media (min-width: 701px) and (max-width: 768px) {
+  .cont124 {
+    margin-left: 20px;
+  }
+}
