@@ -1,11 +1,11 @@
 import React from "react";
-import "./main.css";
+import "../cssfiles/main.css";
 // import "./date.css";
 import Datep from "./Date";
-import exp from "./exp_panel1.jpg";
-import verify from "./verify_tick_icon.png";
-import bgimg from "./patter1_top_right.png";
-import clinic from "./clinic_logo.png";
+import exp from "../img/exp_panel1.jpg";
+import verify from "../img/verify_tick_icon.png";
+import bgimg from "../img/patter1_top_right.png";
+import clinic from "../img/clinic_logo.png";
 function Main() {
   return (
     <div>
